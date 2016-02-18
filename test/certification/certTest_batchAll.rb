@@ -43,6 +43,7 @@ module LitleOnline
     def test_MEGA_batch
       authHash = {
         'reportGroup'=>'Planets',
+        'id' => '006',
         'orderId'=>'12344',
         'amount'=>'106',
         'orderSource'=>'ecommerce',
@@ -67,6 +68,7 @@ module LitleOnline
       creditHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
         'amount'=>'106',
@@ -80,6 +82,7 @@ module LitleOnline
       authReversalHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'litleTxnId'=>'12345678000',
         'amount'=>'106',
@@ -89,6 +92,7 @@ module LitleOnline
       registerTokenHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
         'accountNumber'=>'1233456789103801'
@@ -108,6 +112,7 @@ module LitleOnline
       forceCaptHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'litleTxnId'=>'123456',
         'orderId'=>'12344',
@@ -122,6 +127,7 @@ module LitleOnline
       captHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'litleTxnId'=>'123456000',
         'amount'=>'106',
@@ -130,6 +136,7 @@ module LitleOnline
       captGivenAuthHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
         'amount'=>'106',
@@ -147,6 +154,7 @@ module LitleOnline
       echeckVerificationHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'amount'=>'123456',
         'orderId'=>'12345',
@@ -158,6 +166,7 @@ module LitleOnline
       echeckCreditHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'litleTxnId'=>'123456789101112',
         'amount'=>'12'
@@ -166,6 +175,7 @@ module LitleOnline
       echeckRedeopsitHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'litleTxnId'=>'123456'
       }
@@ -173,6 +183,7 @@ module LitleOnline
       echeckSaleHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'amount'=>'123456',
         'verify'=>'true',
@@ -244,6 +255,7 @@ module LitleOnline
       echeckSaleHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'amount'=>'123456',
         'verify'=>'true',
@@ -290,6 +302,7 @@ module LitleOnline
       echeckSaleHash = {
         'merchantId' => '101',
         'version'=>'8.8',
+        'id' => '006',
         'reportGroup'=>'Planets',
         'amount'=>'123456',
         'verify'=>'true',
@@ -337,6 +350,7 @@ module LitleOnline
       submerchantCreditHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'submerchantName'=>'001',
         'fundsTransferId'=>'00003',
@@ -347,6 +361,7 @@ module LitleOnline
       vendorCreditHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'vendorName'=>'001',
         'fundsTransferId'=>'00007',
@@ -357,6 +372,7 @@ module LitleOnline
       payFacCreditHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'fundsTransferId'=>'00001',
         'amount'=>'1000',
@@ -365,6 +381,7 @@ module LitleOnline
       reserveCreditHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'fundsTransferId'=>'00005',
         'amount'=>'50000',
@@ -373,6 +390,7 @@ module LitleOnline
       physicalCheckCreditHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'fundsTransferId'=>'00009',
         'amount'=>'9000',
@@ -381,6 +399,7 @@ module LitleOnline
       submerchantDebitHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'submerchantName'=>'001',
         'fundsTransferId'=>'00003',
@@ -391,6 +410,7 @@ module LitleOnline
       vendorDebitHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'vendorName'=>'001',
         'fundsTransferId'=>'00007',
@@ -401,6 +421,7 @@ module LitleOnline
       payFacDebitHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'fundsTransferId'=>'00001',
         'amount'=>'1000',
@@ -409,6 +430,7 @@ module LitleOnline
       reserveDebitHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'fundsTransferId'=>'00005',
         'amount'=>'50000',
@@ -417,6 +439,7 @@ module LitleOnline
       physicalCheckDebitHash = {
         'reportGroup'=>'Planets',
         'orderId'=>'12344',
+        'id' => '006',
         'fundingSubmerchantId'=>'123456',
         'fundsTransferId'=>'00009',
         'amount'=>'9000',
@@ -476,6 +499,7 @@ module LitleOnline
         'version'=>'9.3',
         'reportGroup'=>'Planets',
         'orderId'=>'000',
+        'id' => '006',
         'orderSource'=>'ecommerce',
         'billToAddress'=> billToAddress,
         'echeck' => echeckSuccess
@@ -486,6 +510,7 @@ module LitleOnline
         'version'=>'9.3',
         'reportGroup'=>'Planets',
         'orderId'=>'900',
+        'id' => '006',
         'orderSource'=>'ecommerce',
         'billToAddress'=> billToAddress,
         'echeck' => echeckRoutErr
@@ -496,6 +521,7 @@ module LitleOnline
         'version'=>'9.3',
         'reportGroup'=>'Planets',
         'orderId'=>'301',
+        'id' => '006',
         'orderSource'=>'ecommerce',
         'billToAddress'=> billToAddress,
         'echeck' => echeckAccErr
@@ -506,6 +532,7 @@ module LitleOnline
         'version'=>'9.3',
         'reportGroup'=>'Planets',
         'orderId'=>'000',
+        'id' => '006',
         'orderSource'=>'ecommerce',
         'billToAddress'=>  billToAddress,
         'echeck' => echeckSuccess
@@ -516,6 +543,7 @@ module LitleOnline
         'version'=>'9.3',
         'reportGroup'=>'Planets',
         'orderId'=>'900',
+        'id' => '006',
         'orderSource'=>'ecommerce',
         'billToAddress'=>  billToAddress,
         'echeck' => echeckRoutErr
@@ -526,6 +554,7 @@ module LitleOnline
         'version'=>'9.3',
         'reportGroup'=>'Planets',
         'orderId'=>'301',
+        'id' => '006',
         'orderSource'=>'ecommerce',
         'billToAddress'=>  billToAddress,
         'echeck' => echeckAccErr
@@ -563,7 +592,7 @@ module LitleOnline
       request.process_responses({:transaction_listener => LitleOnline::DefaultLitleListener.new do |transaction|
         assert_not_nil transaction["litleTxnId"] =~ /\d+/
         assert_not_nil transaction["message"]
-        assert_equal(transaction["orderId"],transaction["response"])
+        assert_not_nil transaction["response"]
         count+=1
         end})
       assert_equal 6,count
